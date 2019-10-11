@@ -4,6 +4,7 @@ metadata:
   name: web-service
   labels:
     app: myapp
+    
 spec:
   type: Nodeport
   selector:
