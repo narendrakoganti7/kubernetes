@@ -4,7 +4,7 @@ metadata:
   name: web-service
   labels:
     app: myapp
-    
+
 spec:
   type: Nodeport
   selector:
@@ -12,4 +12,4 @@ spec:
   ports:
     - targetPort: 80
       port: 80
-      Nodeport: 3008
+      nodePort: 3008
