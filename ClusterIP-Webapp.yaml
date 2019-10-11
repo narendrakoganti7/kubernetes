@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: ClusterIp-webservers
 spec:
-  type: ClusterIp
+  type: ClusterIP
   ports:
     - targetPort: 80
       port: 80
