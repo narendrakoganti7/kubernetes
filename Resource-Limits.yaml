@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: alpine-os
-      image: alpine
+      image: alpine alpine
       ports:
         - containerPort: 22
       #resources:
