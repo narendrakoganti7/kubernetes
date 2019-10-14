@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: Node-affinity
+  name: node-affinity
 spec:
   containers:
     - name: nodeaffinity
