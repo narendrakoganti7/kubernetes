@@ -44,7 +44,11 @@ This installation document  for one master and two worker nodes
   
   `kubectl apply -f https://docs.projectcalico.org/v3.8/manifests/calico.yaml`
   
+  **finally need copy token command and paste to worker nodes**
   
+`kubectl get nodes`
+
+`kubectl get pods --all-namespaces` 
  
  
  
