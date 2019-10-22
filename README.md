@@ -36,10 +36,15 @@ This installation document  for one master and two worker nodes
  
  once successfuly install kubernetes packages then we need to run `kubectl init` command with pod network.
  
- here we selecting pod network as calcio  network
+ here we selecting pod network as calico  network
  
   `kubectl init --pod-network=192.168.0.0/24`
-  `kubectl init --pod-network=192.168.0.0/24`
+  
+  ## Install pod network calico
+  
+  `kubectl apply -f https://docs.projectcalico.org/v3.8/manifests/calico.yaml`
+  
+  
  
  
  
