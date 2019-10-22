@@ -1,0 +1,12 @@
+apiVersion: certificates.k8s.io/v1beta1
+kind: CertificateSigningReque
+metadata:
+  name: ak
+spec:
+  groups:
+  - system: authenticated
+  usage:
+  - digital signature
+  - key encipherment
+  - server aurth
+  request
