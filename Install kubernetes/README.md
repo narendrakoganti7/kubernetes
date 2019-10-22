@@ -49,6 +49,8 @@ This installation document  for one master and two worker nodes
 `kubectl get nodes`
 
 `kubectl get pods --all-namespaces` 
+
+---
  
  
  
