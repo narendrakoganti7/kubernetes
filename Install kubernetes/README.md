@@ -13,7 +13,7 @@ This installation document  for one master and two worker nodes
   We need to setup 3 vm on your pc or public cloud enverment.
   need to assinge  static ip for all nodes
   
-  select os centos/ubuntu linux .
+  **OS** centos/ubuntu linux .
   
     
   ## Install docker 
