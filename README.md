@@ -15,6 +15,7 @@ This installation document  for one master and two worker nodes
   
   select os centos/ubuntu linux .
   
+    
   ## Install docker 
   
   Clone rep and exuce blewo scrip
@@ -26,6 +27,19 @@ This installation document  for one master and two worker nodes
   ## Install kube tools
   
   excute kuberinstall script
+  
   `chmod 744 kubetools.sh`
+  
   `./kubetools.sh`
   
+## Run kubectl init with pod network
+ 
+ once successfuly install kubernetes packages then we need to run `kubectl init` command with pod network.
+ 
+ here we selecting pod network as calcio  network
+ 
+  `kubectl init --pod-network=192.168.0.0/24`
+  `kubectl init --pod-network=192.168.0.0/24`
+ 
+ 
+ 
