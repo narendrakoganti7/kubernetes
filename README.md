@@ -18,7 +18,9 @@ This installation document  for one master and two worker nodes
   ## Install docker 
   
   Clone rep and exuce blewo scrip
+  
   `chmod 744 install_docker_kubernetes.sh`
+  
   `./install_docker_kubernetes.sh`
   
   ## Install kube tools
