@@ -12,7 +12,7 @@
 
 `kubectl config current-contexts`
 
-*switch context * 
+*switch context* 
 
 `kubectl config use-context contextname` 
 
