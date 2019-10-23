@@ -14,7 +14,14 @@
 
 *switch context * 
 
-`kubectl config use-context contextname`  
+`kubectl config use-context contextname` 
+
+## change default config fie
+
+ `./kube/config` is default config file for cluster and context so if you have custem config file then need replace the config file.
+ 
+ please refer custom config [sample_config](https://github.com/narendrakoganti7/kubernetes/blob/master/kubeconfig_contexts/sample_config)
+    
 
                         
                            
