@@ -16,5 +16,5 @@ preferences: {}
 users:
 - name: developer
   user:
-    client-certificate: /home/gcp/kubernetes/KUBE_AUTH_ROLES/users/devloper/developer.crt
-    client-key: /home/gcp/kubernetes/KUBE_AUTH_ROLES/users/devloper/devloper.key
+    client-certificate: /home/developer/.kube/devloper/developer.crt
+    client-key: /home/developer/.kube/devloper.key

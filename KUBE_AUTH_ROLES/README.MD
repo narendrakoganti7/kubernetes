@@ -34,6 +34,8 @@ please check below yaml file
 
 [Rolebinding_dev](https://github.com/narendrakoganti7/kubernetes/blob/master/KUBE_AUTH_ROLES/RoleBinding.yaml)
 
+### Method 1:
+this way we can generate .kube/config
 create user credentials using kubectl
 
 `kubectl config set-credentials developer --client-certificate=/home/gcp/kubernetes/KUBE_AUTH_ROLES/users/devloper/developer.crt --client-key=/home/gcp/kubernetes/KUBE_AUTH_ROLES/users/devloper/devloper.key`
@@ -41,3 +43,11 @@ create user credentials using kubectl
 create  new context for dev user
 
 `kubectl config set-context dev-context --cluster=kubernetes --namespace=development --user=developer` 
+
+the copy .kube/config and edit according to developer context
+remove admin contaxt and copy to user home directory .
+
+### Method 2:
+
+you can write your self config yaml file
+  * sample : [sample_config_user](https://github.com/narendrakoganti7/kubernetes/blob/master/KUBE_AUTH_ROLES/developer_config) 
