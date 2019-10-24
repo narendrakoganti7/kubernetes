@@ -19,6 +19,8 @@ then need to create certificate request
 
 we need to approve csr certificate to kubernetes certificate authority.
 
-`openssl x509 -req -in developer.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out developer.crt -days 500 ` 
+`openssl x509 -req -in developer.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out developer.crt -days 500 `
+
+ 
 
   
