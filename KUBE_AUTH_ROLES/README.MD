@@ -26,4 +26,10 @@ we need to approve csr certificate to kubernetes certificate authority.
    
    `kubectl create -f kube-role-dev.yaml`
 
+already we created role then need to create rolebind
+
+rolebind is bind role and user.
+
+pleasse check below yaml file 
+
   
