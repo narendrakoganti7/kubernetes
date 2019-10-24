@@ -51,3 +51,5 @@ remove admin contaxt and copy to user home directory .
 
 you can write your self config yaml file
   * sample : [sample_config_user](https://github.com/narendrakoganti7/kubernetes/blob/master/KUBE_AUTH_ROLES/developer_config) 
+  
+  copy config to user home directory
