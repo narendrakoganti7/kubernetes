@@ -34,4 +34,10 @@ please check below yaml file
 
 [Rolebinding_dev](https://github.com/narendrakoganti7/kubernetes/blob/master/KUBE_AUTH_ROLES/RoleBinding.yaml)
 
+create user credentials using kubectl
+
 `kubectl config set-credentials developer --client-certificate=/home/gcp/kubernetes/KUBE_AUTH_ROLES/users/devloper/developer.crt --client-key=/home/gcp/kubernetes/KUBE_AUTH_ROLES/users/devloper/devloper.key`
+
+create  new context for dev user
+
+`kubectl config set-context dev-context --cluster=kubernetes --namespace=development --user=developer` 
