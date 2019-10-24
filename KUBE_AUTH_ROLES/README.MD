@@ -28,8 +28,11 @@ we need to approve csr certificate to kubernetes certificate authority.
 
 already we created role then need to create rolebind
 
-rolebind is bind role and user.
+rolebinding is bind role and user.[Rolebinding_dev](https://github.com/narendrakoganti7/kubernetes/blob/master/KUBE_AUTH_ROLES/RoleBinding.yaml)
 
-pleasse check below yaml file 
+please check below yaml file 
+
+
+
 
   
