@@ -17,5 +17,8 @@ then need to create certificate request
 
 `openssl req -new -key developer.key -out developer.csr -subj "/CN=developer/o=javadevloper"`
 
+we need to approve csr certificate to kubernetes certificate authority.
+
+`openssl x509 -req -in developer.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out developer.crt -days 500 ` 
 
   
