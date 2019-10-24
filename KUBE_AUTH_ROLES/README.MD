@@ -34,4 +34,4 @@ please check below yaml file
 
 [Rolebinding_dev](https://github.com/narendrakoganti7/kubernetes/blob/master/KUBE_AUTH_ROLES/RoleBinding.yaml)
 
-`kubectl config set-credentials developer --client-certificate=/home/gcp/kubernetes/KUBE_AUTH_ROLES/users/devloper/developer.crt --clent-key=/home/gcp/kubernetes/KUBE_AUTH_ROLES/users/devloper/devloper.key`
+`kubectl config set-credentials developer --client-certificate=/home/gcp/kubernetes/KUBE_AUTH_ROLES/users/devloper/developer.crt --client-key=/home/gcp/kubernetes/KUBE_AUTH_ROLES/users/devloper/devloper.key`
