@@ -67,3 +67,6 @@ you can write your self config yaml file
    **ClusterRoleBinding:**
    
    This property  bind the user and ClusterRole
+   
+   Please refer sample yaml cod [ClusterRolesBinding](https://github.com/narendrakoganti7/kubernetes/blob/master/KUBE_AUTH_ROLES/ClusterRoleBinding.yaml)
+   
