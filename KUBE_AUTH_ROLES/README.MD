@@ -62,4 +62,8 @@ you can write your self config yaml file
   
   ClusterRoles are applicable entire cluster not specific namespace
   
-  
+  please refer sample code for [ClusterRole](https://github.com/narendrakoganti7/kubernetes/blob/master/KUBE_AUTH_ROLES/ClusterRole.yaml)
+   
+   **ClusterRoleBinding:**
+   
+   This property  bind the user and ClusterRole
