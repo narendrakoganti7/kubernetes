@@ -1,5 +1,6 @@
 # User management ( Roles)
 
+Roles can user only with namespaces if not mansion it will take default namespace. 
 when you  want to  give access for user in kubernetes , fist we need to create namespace 
 
 `kubectl create namespace dev`
@@ -54,3 +55,11 @@ you can write your self config yaml file
   * sample : [sample_config_user](https://github.com/narendrakoganti7/kubernetes/blob/master/KUBE_AUTH_ROLES/developer_config) 
   
   copy custom config to user home directory
+  
+  ---
+  
+  ## ClusterRoles
+  
+  ClusterRoles are applicable entire cluster not specific namespace
+  
+  
