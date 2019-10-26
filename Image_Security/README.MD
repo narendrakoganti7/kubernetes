@@ -11,4 +11,4 @@ then inject store data into yaml files.
          
          inject secret data into pod/ deployments
          
-       sample code []()
+       sample code [image-security](https://github.com/narendrakoganti7/kubernetes/blob/master/Image_Security/Image-security.yaml)
