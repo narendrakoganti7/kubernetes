@@ -6,7 +6,7 @@ spec:
   containers:
     - name: testpvh
       image: ubuntu
-      command:
+      command:    # command arg is mandatory for ubuntu or os images
         - /bin/sleep
         - "300"
       imagePullPolicy: Always
@@ -19,4 +19,4 @@ spec:
     - name: test-pv-storage
       persistentVolumeClaim:
         claimName: pvc-hostfile
-
+p
