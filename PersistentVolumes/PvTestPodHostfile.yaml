@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: testpvh
-      image: ubuntu
+      image: nginx
       imagePullPolicy: Always
 
       volumeMounts:
