@@ -6,6 +6,8 @@ spec:
   containers:
     - name: testpvh
       image: ubuntu
+      imagePullPolicy: Always
+
       volumeMounts:
         - mountPath: "/opt"
           name: test-pv-storage
