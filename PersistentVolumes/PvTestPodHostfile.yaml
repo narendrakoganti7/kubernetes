@@ -6,6 +6,9 @@ spec:
   containers:
     - name: testpvh
       image: ubuntu
+      command:
+        - /bin/sleep
+        - "300"
       imagePullPolicy: Always
 
       volumeMounts:
