@@ -7,7 +7,7 @@ spec:
     - name: ubuntu
       image: ubuntu
       volumeMounts:
-        - mountPath: /opt
+        - mountPath: "/opt"
           name: pv-test-pod
   volumes:
     - name: pv-test-pod
