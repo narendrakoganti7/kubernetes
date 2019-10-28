@@ -9,6 +9,6 @@ then inject store data into yaml files.
      `kubectl create secret docker-registry regcred --docker-server=server --docker-user=usernaem --docker-password=password --docker-email= nar@email.com`
  * step 2:
          
-         inject secret data into pod/ deployments
+     inject secret data into pod/ deployments
          
-       sample code [image-security](https://github.com/narendrakoganti7/kubernetes/blob/master/Image_Security/Image-security.yaml)
+      sample code [image-security](https://github.com/narendrakoganti7/kubernetes/blob/master/Image_Security/Image-security.yaml)
