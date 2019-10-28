@@ -10,7 +10,6 @@ spec:
         - /bin/sleep
         - "300"
       imagePullPolicy: Always
-
       volumeMounts:
         - mountPath: "/opt"
           name: test-pv-storage
