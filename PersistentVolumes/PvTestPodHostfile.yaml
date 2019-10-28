@@ -18,4 +18,4 @@ spec:
     - name: test-pv-storage
       persistentVolumeClaim:
         claimName: pvc-hostfile
-p
+
