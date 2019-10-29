@@ -4,7 +4,7 @@ metadata:
   name: pv-test-pod
 spec:
   containers:
-    - name: ubuntu
+    - name: gce-pv
       image: ubuntu
       volumeMounts:
         - mountPath: "/opt"
