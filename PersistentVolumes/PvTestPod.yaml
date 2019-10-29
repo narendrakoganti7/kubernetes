@@ -11,7 +11,7 @@ spec:
           name: pv-test-pod
       command:
         - /bin/sleep
-        - 300
+        - "300"
   volumes:
     - name: pv-test-pod
       persistentVolumeClaim:
