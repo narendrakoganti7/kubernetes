@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata: nfs-pod-test
+spec:
+  containers:
+    - name: nfscont
+      image: ngnix
+      imagePullPolicy: Always
+      volumeMounts:
+        - name: nfs-test
+          mountPath: "/var"
+  volumes:
+    - name: nfs-test
+      persistentVolumeClaim:
+        claimName: pvc-nfs
+
+

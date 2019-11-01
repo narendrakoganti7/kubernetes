@@ -3,4 +3,11 @@ kind: PersistentVolumeClaim
 metadata:
   name: pvc-nfs
 spec:
-  
+  accessModes:
+    - ReadWriteOnce
+  volumeMode: Filesystem
+  resources:
+    requests:
+      storage: 9Gi
+      
+
