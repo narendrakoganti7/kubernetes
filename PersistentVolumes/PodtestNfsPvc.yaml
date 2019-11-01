@@ -9,7 +9,7 @@ spec:
       imagePullPolicy: Always
       volumeMounts:
         - name: nfs-test
-          mountPath: "/var"
+          mountPath: "/usr/share/nginx/"
   volumes:
     - name: nfs-test
       persistentVolumeClaim:
