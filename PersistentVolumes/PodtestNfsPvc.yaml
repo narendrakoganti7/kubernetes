@@ -6,7 +6,7 @@ spec:
   containers:
     - name: nfscont
       image: ngnix
-      imagePullPolicy: Always
+
       volumeMounts:
         - name: nfs-test
           mountPath: "/var"
