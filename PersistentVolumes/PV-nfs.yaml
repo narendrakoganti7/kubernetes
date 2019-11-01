@@ -11,7 +11,7 @@ spec:
   persistentVolumeReclaimPolicy: Recycle
   nfs:
     path: /data
-    server: 10.148.0.4
+    server: 10.148.0.7
 
 
 
