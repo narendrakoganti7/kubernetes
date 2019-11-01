@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: nfscont
-      image: ngnix
+      image: nginx
 
       volumeMounts:
         - name: nfs-test
