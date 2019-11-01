@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: Pod
-metadata: nfs-pod-test
+metadata:
+  name: nfs-pod-test
 spec:
   containers:
     - name: nfscont
