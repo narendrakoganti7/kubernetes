@@ -7,6 +7,6 @@ spec:
     storage: 10Gi
   accessModes:
     - ReadWriteOnce
-  storageClassName: slow
+
   gcePersistentDisk:
-    pdName: mongodisk1
+    pdName: mongodisk
