@@ -18,4 +18,5 @@ first attach disk in to vm in my case gcp.
  
       /dev/sdb: UUID="bcb96eef-e934-43fd-b9bb-eab306cda86b" TYPE="ext4"
   * add to /etc/fstab uuid and directory name and mount point type
+
   
