@@ -1,11 +1,12 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: pvc-nfs
+  name: pvc-nfs-pro
 spec:
   accessModes:
     - ReadWriteOnce
   volumeMode: Filesystem
+  storageClassName: managed-nfs-storage
   resources:
     requests:
       storage: 9Gi
