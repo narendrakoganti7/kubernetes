@@ -27,11 +27,7 @@ spec:
         volumeMounts:
         - name: mongo-volume
           mountPath: /data/db
-  volumeClaimTemplates:
-  - metadata:
-      name: mongo-volume
-    spec:
-      accessModes: [ "ReadWriteOnce" ]
-      resources:
-        requests:
-          storage: 9Gi
+     volumes:
+       - name: mongo-volume
+         persistentVolumeClaim:
+           claimName: PVC-Nfs.yaml
