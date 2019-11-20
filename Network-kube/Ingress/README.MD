@@ -9,7 +9,7 @@ to reach the cluster services.
 It is logical controller that will be map to one of your load balance that ether 
 cloud or physical or proprietary and its create set of rules this rules will route the traffic to runtime appropriate endpoints like (NodePort etc)  
 
-### configured to expose services through
+### Configured to expose services through
 * External URLs
 * Load Balancers
 * SSL terminated endpoints
