@@ -27,7 +27,7 @@ spec:
         volumeMounts:
         - name: mongo-volume
           mountPath: /data/db
-     volumes:
+      volumes:
        - name: mongo-volume
          persistentVolumeClaim:
            claimName: pvc-nfs-pro
