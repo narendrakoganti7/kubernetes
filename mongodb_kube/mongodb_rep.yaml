@@ -30,4 +30,4 @@ spec:
      volumes:
        - name: mongo-volume
          persistentVolumeClaim:
-           claimName: PVC-Nfs.yaml
+           claimName: pvc-nfs-pro
