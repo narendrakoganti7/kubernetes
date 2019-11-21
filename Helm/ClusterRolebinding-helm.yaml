@@ -5,8 +5,8 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: tiller
-    apiGroup: rbac.authorization.k8s.io
+    apiGroup: [""]
 roleRef:
   kind: ClusterRole
   name: cluster-admin
-  apiGroup: rbac.authorization.k8s.io
+  apiGroup: [""]
