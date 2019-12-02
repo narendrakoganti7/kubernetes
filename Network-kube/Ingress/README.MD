@@ -23,15 +23,15 @@ You can easy integrate with Nginx or HAproxy etc ..
 
 ### Create Ingress controller using Nginx
 
-1) need create one namespace for ingress controller
+1) Need to create one separate  namespace for ingress controller
     * [Namespace.yaml](https://github.com/narendrakoganti7/kubernetes/blob/master/Network-kube/Ingress/Ingress-Namespace.yaml) 
 2) Next create service account for access for controller 
-    * [service.yaml](https://github.com/narendrakoganti7/kubernetes/blob/master/Network-kube/Ingress/Ingress-service.yaml)
+    * [service-account.yaml](https://github.com/narendrakoganti7/kubernetes/blob/master/Network-kube/Ingress/Ingress-service.yaml)
 3) Create clusterrole and role 
     * [Role.yaml](https://github.com/narendrakoganti7/kubernetes/blob/master/Network-kube/Ingress/Ingress-Role.yaml)
 4) Create rolebinding on top of roles
     * [Binding.yaml](https://github.com/narendrakoganti7/kubernetes/blob/master/Network-kube/Ingress/Ingress-Binding.yaml)
-5) create configmap for ENV variables 
-    * [configmap.yaml](https://github.com/narendrakoganti7/kubernetes/blob/master/Network-kube/Ingress/Ingress-Configmap.yaml)
-6) create nginx controller deployment
-    * [nginx-controller-deploy.yaml](https://github.com/narendrakoganti7/kubernetes/blob/master/Network-kube/Ingress/Ingress-build.yaml)
+5) Create ConfigMap for ENV variables 
+    * [Configmap.yaml](https://github.com/narendrakoganti7/kubernetes/blob/master/Network-kube/Ingress/Ingress-Configmap.yaml)
+6) Create nginx controller deployment
+    * [Nginx-controller-deploy.yaml](https://github.com/narendrakoganti7/kubernetes/blob/master/Network-kube/Ingress/Ingress-build.yaml)
