@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: web-rc
+  labels:
+    app: http
+    type: webserver
+spec:
+  template:
+    metadata:
+      name: web-doc
+      labels:
+        app: http
+        type: webserver
+    spec:
+      containers:
+        - name: webj
+          image: httpd
+  replicas: 2
+
+
