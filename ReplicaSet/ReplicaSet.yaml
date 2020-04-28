@@ -13,5 +13,9 @@ spec:
         app: http
         type: webserver
     spec:
+      containers:
+        - name: webj
+          image: httpd
+  replicas: 2
 
 
