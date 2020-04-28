@@ -38,11 +38,11 @@ This installation document  for one master and two worker nodes
  
  here we selecting pod network as calico network cidr
  
-  `kubectl init --pod-network-cidr=10.244.0.0/16`
+  `kubeadm init --pod-network-cidr=10.244.0.0/16`
   
   ## Install pod network calico
   
-  `kubectl apply -f https://docs.projectcalico.org/v3.8/manifests/calico.yaml`
+  `kubeadm apply -f https://docs.projectcalico.org/v3.8/manifests/calico.yaml`
   
   **finally need copy token command and paste to worker nodes**
   
