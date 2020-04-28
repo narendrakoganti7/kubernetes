@@ -42,5 +42,5 @@ or
 
 
 ### Replica controller
-replica controller aslo same like replicaset but don't have `selector` and `lables` opption in ymal file.
+replica controller aslo same like replicaset but don't have `selector` and `lables` opption 
 
