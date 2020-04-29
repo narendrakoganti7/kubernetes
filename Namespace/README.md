@@ -31,6 +31,16 @@ To show all pods in cluster
 
 `kubectl get pods --all-namespaces`
 
-we can restrict resource for namespace using request quota.
+we can restrict resource for namespace using resource quota.
+````
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: compute-quota
+  namespace: dev
+spec:
+  hard:
+    pods: "20"
+    limits.memory: 1Gi
 ````
 
