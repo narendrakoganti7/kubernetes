@@ -41,6 +41,6 @@ metadata:
 spec:
   hard:
     pods: "20"
-    limits.memory: 1Gi
+    limits.memory: "1Gi"
 ````
 

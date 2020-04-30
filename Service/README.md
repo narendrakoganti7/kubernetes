@@ -19,4 +19,8 @@ so have ip address of that worker node. so in case of nodePort service can conne
 
 see above image the pod internal port 80 connect with service virtual ip and port 80 then again connect Nodeport port with range of 3000 to 32767.
 
+ClusterIP:
+
+All times no need internal ip for connecting internal componads, expample back-end and datastorage no need ip. That time we need cluster ip
+
 
