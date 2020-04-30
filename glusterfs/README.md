@@ -32,7 +32,7 @@ Hostname: node2
 Uuid: fec0ed55-2848-4656-97ab-45a82baa9538
 State: Peer in Cluster (Connected)
 ````
-**create mount point***
+**create mount point**
 
 simplest way to create mount point , it is just for practice propose.  
 ````
@@ -47,8 +47,6 @@ gluster volume create datavol replica 2 transport tcp node1:/export/appdata/bric
 gluster volume status
 gluster volume start
 
-root@node1:~# gluster volume status datavol
-Volume datavol is not started
 root@node1:~# gluster volume start datavol
 volume start: datavol: success
 root@node1:~# gluster volume status datavol
@@ -72,6 +70,6 @@ master replication completed .
 
 **mount gluster filesystem in client**
 
-`mount -t node1:/datavol /mnt/glusterfs`
+`mount -t glusterfs node1:/datavol /mnt/glusterfs`
 
 
