@@ -1,3 +1,3 @@
 # kubernetes
 this my kubernetes 
-- [Cluster architecture] (repo/Cluster_architecture/cluster_intro.MD)
+- [Cluster architecture] (kubernetes/blob/master/Cluster_architecture/cluster_intro.MD)
