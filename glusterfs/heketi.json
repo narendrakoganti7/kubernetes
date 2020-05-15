@@ -43,12 +43,12 @@
     "_kubeexec_comment": "Kubernetes configuration",
     "kubeexec":
     {
-      "host" :"https://10.128.0.16:8443",
+      "host" :"https://10.128.0.16:32323",
       "cert" : "/path/to/crt.file",
       "insecure": false,
-      "user": "kubernetes username",
+      "user": "admin-user",
       "password": "password for kubernetes user",
-      "namespace": "OpenShift project or Kubernetes namespace",
+      "namespace": "dev",
       "fstab": "/etc/fstab"
     },
 
