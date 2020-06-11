@@ -1,5 +1,5 @@
 ## Helm installation
-**Helm is package management tool like yum in linux
+**Helm is package management tool like yum in linux**
 
 ### script installation method
 
